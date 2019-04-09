@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RobertoRosa7/robos/issues"
   },
-  "homepage": "https://github.com/RobertoRosa7/robos#readme"
+  "homepage": "https://github.com/RobertoRosa7/robos#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
