@@ -19,6 +19,8 @@
   "homepage": "https://github.com/RobertoRosa7/robos#readme",
   "dependencies": {
     "algorithmia": "^0.3.10",
+    "googleapi": "^1.0.2",
+    "googleapis": "^39.2.0",
     "readline-sync": "^1.4.9",
     "sbd": "^1.0.15",
     "watson-developer-cloud": "^4.0.1"
