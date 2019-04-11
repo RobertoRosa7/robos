@@ -65,3 +65,7 @@ credentials/*.json
 
 # database
 database.json
+
+# content
+content/*.png
+content/*.jpg
