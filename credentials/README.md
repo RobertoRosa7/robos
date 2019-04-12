@@ -21,3 +21,11 @@ File: `watson.json`
 	"url": "https://gateway.watsonplatform.net/natural-language-understanding/api"
 }
 ```
+
+## Youtube
+File `google-youtube`
+```
+{
+	"apikey":"AIzaSyBowDNP6UaTfCJmKIpT-fmbPdlppHFHfb4"
+}
+```

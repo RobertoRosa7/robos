@@ -40,14 +40,14 @@ async function robot(){
 				const imageUrl = images[imageIndex];
 				try{
 					if(content.dowloadedImages.includes(imageUrl)){
-						throw new Error('Imagem já foi baixada');
+						throw new Error('Image already dowloaded');
 					}
 					await downloadAndSave(imageUrl, `${sentencesIndex}-original.png`);
 					content.dowloadedImages.push(imageUrl);
-					console.log(`> [${sentencesIndex}] [${imageIndex}] baixou a imagem com sucesso: ${imageUrl}`);
+					console.log(`> [${sentencesIndex}] [${imageIndex}] get image: ${imageUrl}`);
 					break;
 				}catch(err){
-					console.log(`>  [${sentencesIndex}] [${imageIndex}] NÃO baixou a imagem (${imageUrl}): ${err}`);
+					console.log(`>  [${sentencesIndex}] [${imageIndex}] Erro: Not get image (${imageUrl}): ${err}`);
 				}
 			}
 		}
