@@ -19,6 +19,9 @@
   "homepage": "https://github.com/RobertoRosa7/robos#readme",
   "dependencies": {
     "algorithmia": "^0.3.10",
+    "child_process": "^1.0.2",
+    "express": "^4.16.4",
+    "gm": "^1.23.1",
     "googleapi": "^1.0.2",
     "googleapis": "^39.2.0",
     "image-downloader": "^3.4.2",
