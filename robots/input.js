@@ -18,4 +18,4 @@ function robot() {
 		return selectedPrefixText;
 	}
 }
-module.exports = robot
+module.exports = robot;
